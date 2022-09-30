@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+background-color: antiquewhite;
+}
+h1 {
+font-size: 700%;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+h3 {
+color: white;
+border: 1px solid black;
+margin: 0;
+width: 300%;
+text-align: center;
+font-size: 60%;
+background-color: blueviolet;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+float: right;
+overflow: auto;
+}
+p {
+margin: 0;
+text-align: center;
+font-size: 40%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: whitesmoke;
+clear: both;
+overflow: auto;
+}
+#box1 {
+margin: 40px;
+padding: 0;
+border: 3px solid black;
+float: left;
+position: relative;
+}
+#box2 {
+margin: 40px;
+padding: 0;
+border: 3px solid black;
+float: left;
+position: relative;
+}
+#box3 {
+margin: 40px;
+padding: 0;
+border: 3px solid black;
+float: left;
+position: relative;
+}
+.content1 {
+background-color: rgba(255, 0, 98, 0.767);
+}
+.content2 {
+background-color: rgb(45, 255, 3);
+}
+.content3 {
+background-color: rgb(185, 107, 55);
+}
+@media (min-width: 992px) {
+#box1 {
+    width: 24%;
+}
+#box2 {
+    width: 24%;
+}
+#box3 {
+    width: 24%;
+}
+h3 {
+    width: 60%;
+    font-size: 300%;
+}
+p {
+    font-size: 250%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+#box1 {
+    width: 37%;
+}
+#box2 {
+    width: 37%;
+}
+#box3 {
+    width: 83%;
+}
+h3 {
+    width: 50%;
+    font-size: 250%;
+}
+p {
+    font-size: 200%;
+}
+}
+@media (min-width: 0px) and (max-width: 767px) {
+#box1 {
+    width: 80%;
+}
+#box2 {
+    width: 80%;
+}
+#box3 {
+    width: 80%;
+}
+h3 {
+    width: 60%;
+    font-size: 260%;
+}
+p {
+    font-size: 250%;
+}
+}
